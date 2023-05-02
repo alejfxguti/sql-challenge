@@ -1,11 +1,13 @@
-# Research on Pewlett Hackard Employees 1980s and 1990s - sql-challenge
+# Pewlett Hackard Employees 1980s and 1990s - A SQL Data Analysis
+In this project, we analyzed a SQL database of employee information using SQL queries to extract valuable insights from the data. The database consisted of six tables: departments, employees, titles, dept_emp, dept_manager, and salaries.
 
-In this project, I began by reviewing 6 csv files to understand the data, its columns, and connections. The database consisted of six tables: departments, employees, titles, dept_emp, dept_manager, and salaries. Using SQL queries, we were able to extract valuable information from the database. I then took a stab at drawing an entity-relationship diagram using dbdiagram.io. I used this to write my sql statements to create the data tables and based on foreign key constraints I ordered the creation of tables appropriately as to not cause any errors. The SQL table schemata can be found in the EmployeeSQL folder.
+## Methodology
+We began by reviewing the six csv files to understand the data and its connections. Using this knowledge, we drew an entity-relationship diagram (ERD png located in the repository) using dbdiagram.io, which helped us write the SQL statements to create the data tables. We ordered the creation of tables based on foreign key constraints to prevent errors. The SQL table schemata can be found in the EmployeeSQL folder.
 
-Once the table was created I imported the csv files into the appropriate tables using pgAdmin. Once the data was loaded into the tables I was ready to begin data analysis. Below are the analyses I ran. The SQL analysis queries can be found in the EmployeeSQL folder.
+Once the tables were created, we loaded the data from the csv files into the appropriate tables using pgAdmin. After importing the data, we were ready to begin data analysis.
 
 ## Data Analysis
-Below are the queries we ran on the database and the information we extracted:
+We ran the following SQL queries on the database to extract useful information. The SQL analysis queries can be found in the EmployeeSQL folder.
 
 1. List the employee number, last name, first name, sex, and salary of each employee.
 2. List the first name, last name, and hire date for the employees who were hired in 1986.
